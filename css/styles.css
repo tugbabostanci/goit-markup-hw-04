@@ -84,10 +84,11 @@ h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
-    background-color: #2E2F42;
+    
   border: 0px solid #000;
   padding: 200px 450px 40px 450px;
   flex-grow: 1;
+  
 }
 h2 {
     font-size: 36px;
@@ -110,10 +111,20 @@ ul {
 
 .sc1 {
     text-align: center;
+    background-size: auto, cover;
+    background-position: 50%, 50%;
+    background-image: url(images\peopleoffice1.jpg)
+    background-repeat: no-repeat;
+
+    
 }
 .container1 {
     height: 600px;
-    background-color: #2E2F42;
+    background-size: auto, cover;
+    background-position: 50%, 50%;
+    background-image: url(images\peopleoffice1.jpg);
+    background-repeat: no-repeat;
+    
 }
 .container2 {
     background-color: white;
