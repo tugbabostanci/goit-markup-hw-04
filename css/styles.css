@@ -111,19 +111,22 @@ ul {
 
 .sc1 {
     text-align: center;
-    background-size: auto, cover;
-    background-position: 50%, 50%;
-    background-image: url(images\peopleoffice1.jpg)
-    background-repeat: no-repeat;
+
 
     
 }
 .container1 {
     height: 600px;
+    background-color: #2E2F42B2;
     background-size: auto, cover;
     background-position: 50%, 50%;
-    background-image: url(images\peopleoffice1.jpg);
     background-repeat: no-repeat;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+        url(../images/peopleoffice1.jpg);
     
 }
 .container2 {
@@ -146,6 +149,7 @@ ul {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 100px;
+    
 
 }
 .sc3 ul {
@@ -154,13 +158,22 @@ ul {
     gap: 5px;
     flex-direction: row;
     justify-content: space-between;
-    padding: 70px 0 70px 0;
+    padding: 120px 0 120px 0;
     margin-right: 150px;
-    margin-left: 150px;
+    margin-left: 150px;  
     
 }
+.sc3 ul>li {
+    box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+    height: 428px;
+}
+.svg3-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
 .sc4 {
-   
     padding: 120px 0 120px 0;
 }
 .sc4 ul {
@@ -175,12 +188,14 @@ ul {
     height: 1000px;
     margin-left: 156px;
     margin-right: 156px;
-    
-
+}
+.sc4 ul>li:hover {
+    box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
 }
 .sc4 ul>li {
     width: 360px;
     height: 420px;
+    
     
 }
 .item {
