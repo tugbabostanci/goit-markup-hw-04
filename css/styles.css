@@ -230,7 +230,7 @@ ul {
     padding: 20px;
     text-align: center;
 }
-.pcard {
+.pcard, .pcard2 {
     border: #E7E9FC solid 1px ;
     border-top: 0;
     width: 360px;
