@@ -320,11 +320,6 @@ a:hover, a:focus {
    fill: rgba(64, 75, 191, 1);
 }
 
-.pcard2.hover::before{
-    content: "14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App";
-    color: #E7E9FC;
-    background-color: #4D5AE5;
-}
 .os-button:hover {
 
     background-color: rgba(151, 71, 255, 1);
