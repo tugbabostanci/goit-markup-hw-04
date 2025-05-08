@@ -54,6 +54,7 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     text-decoration: none;
+    background-color: white;
 }
 .mail {
     margin-right:30px ;
