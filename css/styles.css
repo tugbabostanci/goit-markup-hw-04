@@ -313,13 +313,10 @@ a:hover, a:focus {
     width: 264px;
     height: 380px;
 }
-.icon{
-    fill: rgba(77, 90, 229, 1);
-    box-shadow: none;
-}
-.icon:hover {
-   fill: rgba(64, 75, 191, 1);
-   background-color: rgba(64, 75, 191, 1);
+ 
+
+.svg3-div svg path:hover {
+   fill: #404BBF;
 }
 
 .os-button:hover {
@@ -329,8 +326,8 @@ a:hover, a:focus {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icon:hover {
-    fill: rgba(49, 208, 170, 1);
+.footer-sm-icons svg path:hover {
+    fill: #31D0AA;
 }
 .container4 ul>li {
     position: relative;
