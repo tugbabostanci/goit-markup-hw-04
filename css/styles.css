@@ -81,15 +81,15 @@ footer p {
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 50px;
-    padding: 0 50px 0 200px;
+    padding: 50px 50px 0 200px;
     
 }
 .footer-sm {
     display: flex;
     flex-direction: column;
-    justify-content: ;
+    justify-content: center;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: 400px;
     
 }
