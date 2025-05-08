@@ -317,8 +317,9 @@ a:hover, a:focus {
     fill: rgba(77, 90, 229, 1);
     box-shadow: none;
 }
-.icon:hover{
+.icon:hover {
    fill: rgba(64, 75, 191, 1);
+   background-color: rgba(64, 75, 191, 1);
 }
 
 .os-button:hover {
@@ -334,7 +335,13 @@ a:hover, a:focus {
 .container4 ul>li {
     position: relative;
     overflow: hidden;
+    
+}
 
+.pcard {
+    
+    position: relative;
+    z-index: 999;
 }
 .overlay {
   position: absolute;
