@@ -20,7 +20,7 @@ header {
 }
 .header-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     padding: 20px ;
@@ -29,7 +29,7 @@ header {
     margin: 0 auto;
 }
 .logo {
-    margin-top: 10px;
+    
     margin-right: 30px;
     margin-left: 50px;
     
@@ -73,7 +73,7 @@ footer {
 }
 footer p {
     color: #F4F4FD;
-    margin-right: px;
+   
    
 }
 .footer-logo {
@@ -84,7 +84,7 @@ footer p {
     padding: 50px 50px 0 200px;
     
 }
-.footer-sm {
+.footer-sm-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,17 +93,34 @@ footer p {
     margin-right: 400px;
     
 }
-.footer-sm>p {
+.footer-sm-div>p {
     align-self: flex-start;
 }
-.footer-sm-icons {
+
+ .footer-sm {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-right: 300px;
+    gap: 24px;flex-direction: row;
+  }
+
+  .footer-sm .footer-sm-item {
+    border-radius: 50%;
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    display: flex;
     
-    
-}
+    align-items: center;
+    justify-content: center;
+
+  }
+  .footer-sm .footer-sm-item .instagram, .twitter, .facebook, .linkedin {
+    width: 24px;
+    height: 24px;
+  }
+  .footer-sm .footer-sm-item:hover {
+    background-color: #31D0AA;
+  }
 .footer-container {
     display: flex;
     flex-direction: row;
@@ -112,6 +129,7 @@ footer p {
     padding: 100px 0 100px 0;
     margin: 0 auto;
 }
+
 
 
 h1,h2,h3,h4 {
@@ -179,6 +197,16 @@ ul {
     background-color: white;
     gap: 20px;
 }
+.container2 li>svg {
+    border: 1px solid #8E8F99;
+    width: 250px;
+    height: 112px;
+    margin-right: 24px;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    justify-content: center;
+    align-items: center;
+}
 
 .sc2 ul {
     display: flex;
@@ -191,12 +219,10 @@ ul {
     margin-left: 100px;
 }
 .sc3 {
-    top: 1016px;
+    ;
     background-color: #F4F4FD;
     padding-top: 120px;
-    padding-bottom: 100px;
-    
-
+   
 }
 .sc3 ul {
     text-align: center;
@@ -204,20 +230,46 @@ ul {
     gap: 5px;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 120px 0 120px 0;
-    margin-right: 150px;
-    margin-left: 150px;  
+    margin-right: 50px;
+    margin-left: 50px;  
     
 }
 .sc3 ul>li {
     box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
     height: 428px;
+    
 }
-.svg3-div {
+.card1, .card2, .card3, .card4 {
+    background-color: white;
+    width: 264px;
+    height: 380px;
+}
+
+  .sm {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    gap: 24px;
+  }
+
+  .sm .sm-item {
+    border-radius: 50%;
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
     justify-content: center;
+
+  }
+  .sm .sm.item .instagram, .twitter, .facebook, .linkedin {
+    width: 16px;
+    height: 16px;
+  }
+
+.sm .sm-item:hover {
+    background-color: #404BBF;
 }
 .sc4 {
     padding: 120px 0 120px 0;
@@ -308,16 +360,8 @@ a:hover, a:focus {
    color:#4D5AE5;
    transition: color 20ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.card1, .card2, .card3, .card4 {
-    background-color: white;
-    width: 264px;
-    height: 380px;
-}
- 
 
-.svg3-div svg path:hover {
-   fill: #404BBF;
-}
+ 
 
 .os-button:hover {
 
@@ -326,19 +370,18 @@ a:hover, a:focus {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-sm-icons svg path:hover {
-    fill: #31D0AA;
-}
+
+
 .container4 ul>li {
-    position: relative;
-    overflow: hidden;
+ position: relative;
+  overflow: hidden; 
     
 }
 
 .pcard {
-    
     position: relative;
     z-index: 999;
+    background-color:white;
 }
 .overlay {
   position: absolute;
@@ -355,3 +398,7 @@ a:hover, a:focus {
 .container4 ul>li:hover .overlay {
     transform: translateY(0);
   }
+
+
+
+ 
