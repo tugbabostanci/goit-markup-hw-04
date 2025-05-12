@@ -116,7 +116,7 @@ footer p {
     justify-content: center;
 
   }
-    .footer-sm-item .instagram .twitter .facebook .linkedin {
+    .footer-sm-item .instagram, .twitter, .facebook, .linkedin {
     width: 24px;
     height: 24px;
   }
@@ -199,17 +199,30 @@ ul {
 }
 .container2 {
     background-color: white;
-    gap: 20px;
+  
+    
 }
 .container2 li>svg {
     border: 1px solid #8E8F99;
-    width: 250px;
-    height: 112px;
-    margin-right: 24px;
     border-radius: 4px;
     background-color: #F4F4FD;
     justify-content: center;
     align-items: center;
+}
+.antenna, .diagram, .clock, .astronaut {
+    width: 64px;
+    height: 64px;
+}
+.sc2-svg-cont {
+    border: 1px solid #8E8F99;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .sc2 ul {
@@ -218,12 +231,17 @@ ul {
     flex-direction: row;
     background-color: white;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding: 70px 0 120px 0;
     margin-right: 100px;
-    margin-left: 100px;
-    text-align: center;
+    margin-left: 100px; 
 }
+.sc2-card h3 {
+    justify-self: start;
+    padding-top: 10px;
+    font-weight: 500;
+}
+    
  .container3 {
     display: flex;
     flex-direction: row;
@@ -331,6 +349,7 @@ ul {
     padding: 32px 16px 32px 16px;
     gap: 8px;
     
+    
 
     
 }
@@ -395,6 +414,7 @@ a:hover, a:focus {
 .container4 ul>li {
  position: relative;
   overflow: hidden; 
+  border-bottom: #E7E9FC solid 1px;
     
 }
 
@@ -414,6 +434,7 @@ a:hover, a:focus {
 
   transform: translateY(100%);
   transition: transform 250ms ease-in-out;
+  
 }
 .container4 ul>li:hover .overlay {
     transform: translateY(0);
